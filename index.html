@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#131214">
+    <meta name="msapplication-TileColor" content="#131214">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="msapplication-TileImage" content="/favicon/mstile-150x150.png">
+    <meta name="theme-color" content="#131214">
+    <meta name="keywords" content="Forecast24x7">
+    <meta name="description" content="Stay Ahead With Accurate Weather Updates.">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Forecast24x7">
+    <meta property="og:description" content="Stay Ahead With Accurate Weather Updates.">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="">
+    <meta property="twitter:url" content="">
+    <meta name="twitter:title" content="Forecast24x7">
+    <meta name="twitter:description" content="Stay Ahead With Accurate Weather Updates.">
+    <meta name="twitter:image" content="">
+    <title>Forecast24x7</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">Forecast24x7</a>
+            <div class="search_view" data-search-view>
+                <div class="search_wrapper">
+                    <input type="search" name="search" class="search_field" placeholder="Search City" autocomplete="off"
+                        data-search-field>
+                    <span class="m_icon leading_icon">search</span>
+                    <button class="icon_btn leading_icon has_state" data-search-toggler>
+                        <span class="m_icon">arrow_back</span>
+                    </button>
+                </div>
+                <div class="search_result" data-search-result></div>
+            </div>
+            <div class="header_actions">
+                <button class="icon_btn has_state" data-search-toggler>
+                    <span class="m_icon icon">search</span>
+                </button>
+                <a href="#/current-location" class="btn_primary has_state" data-current-location-btn>
+                    <span class="m_icon">my_location</span>
+                    <span class="span">Current Location</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article class="container" data-container>
+            <div class="content_left">
+                <section class="section current_weather" data-current-weather>
+                </section>
+                <section class="section forecast" data-5-day-forecast>
+                </section>
+            </div>
+            <div class="content_right">
+                <section class="section highlights" data-highlights>
+                </section>
+                <section class="section hourly_forecast" data-hourly-forecast>
+                </section>
+                <footer class="footer">
+                    <p class="body_3">&#169; Forecast24x7. All Rights Reserved.</p>
+                </footer>
+            </div>
+            <div class="loading" data-loading></div>
+        </article>
+    </main>
+    <section class="error_content" data-error-content>
+        <h2 class="heading">404</h2>
+        <p class="body_1">Page Not Found</p>
+        <a href="/" class="btn_primary">
+            <span class="span">Go Home</span>
+        </a>
+    </section>
+    <script type="module" src="/js/app.js"></script>
+    <script type="module" src="/js/route.js"></script>
+</body>
+
+</html>
