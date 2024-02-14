@@ -1,6 +1,6 @@
 # Forecast24x7
 
-Forecast24x7: A Weather App Powered by OpenWeatherMap API, HTML, CSS and JavaScript.
+Forecast24x7: A Weather App Using Openweathermap Api, Built With Html, Css, And Javascript For Real-time Weather Updates.
 
 
 ## Instructions
