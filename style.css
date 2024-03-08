@@ -54,12 +54,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 
 html {
     font-family: var(--ff-inria-sans);
     font-size: 10px;
     scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -67,6 +69,7 @@ body {
     color: var(--on-background);
     font-size: var(--body-3);
     overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
 
 li {

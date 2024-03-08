@@ -1,3 +1,5 @@
+![Forecast24x7](https://raw.githubusercontent.com/sayedanowar/Full-fledged-Weather-App/main/img/GitHub%20Repository%20Image.png)
+
 # Forecast24x7
 
 A Weather App Using OpenWeatherMap API, Built With HTML, CSS, And JavaScript For Real-time Weather Updates.
@@ -29,8 +31,8 @@ Contributions are always welcome! Feel free to open an issue, fork the repositor
 
 ### Desktop View
 
-![App Screenshot](https://github.com/sayedanowar/Full-fledged-Weather-App/blob/main/preview.png)
+![App Screenshot](https://raw.githubusercontent.com/sayedanowar/Full-fledged-Weather-App/main/img/preview.png)
 
 ### Mobile View
 
-![App Screenshot](https://github.com/sayedanowar/Full-fledged-Weather-App/blob/main/view.png)
+![App Screenshot](https://raw.githubusercontent.com/sayedanowar/Full-fledged-Weather-App/main/img/view.png)
