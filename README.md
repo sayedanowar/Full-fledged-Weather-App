@@ -23,7 +23,7 @@ Before running the project, you need to add your `OpenWeatherMap API` key to the
 
 ## Contributing
 
-Contributions are always welcome! Feel free to open an issue or submit a pull request.
+Contributions are always welcome! Feel free to open an issue, fork the repository, and submit a pull request.
 
 ## Screenshots
 
